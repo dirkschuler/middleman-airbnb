@@ -1,0 +1,62 @@
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flat-info {
+  flex: 0 0 auto;
+}
+
+.booking {
+  flex: 0 0 auto;
+}
+
+
+.flat-card {
+  height: 175px;
+  width: 500px;
+  position: relative;
+  margin: 50px 20px;
+}
+
+.avatar-name {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.flat-user {
+  width: 80px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+}
+
+.flat-name {
+  top: 100px;
+  left: 10px;
+  padding: 10px;
+}
+
+.flat-description {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.city-name {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  margin-top: 0px;
+}
+
+.flat-rating {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  margin-top: 0px;
+}
